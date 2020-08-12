@@ -18,7 +18,7 @@ import argparse
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets
-from torchvision import transforms
+from torchvision import transformsF
 from torch.autograd import Variable
 import torch.optim as optim
 
