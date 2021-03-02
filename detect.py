@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     # Bounding-box colors
     cmap = plt.get_cmap("tab20b")
-    colors = [cmap(i) for i in np.linspace(0, 1, 20)]
+    colors = [cmap(i) for i in np.linspace(0, 1, 254)]
 
     print("\nSaving images:")
     # Iterate through images and save plot of detections
